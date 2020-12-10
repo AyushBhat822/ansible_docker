@@ -25,7 +25,7 @@
 
   - docker_container:
       detach: yes
-      name: techmint
+      name: os_httpd
       ports: "8080:80"
       volumes: /var/www/html/:/usr/local/apache2/htdocs/:ro
       image: httpd
